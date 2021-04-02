@@ -1,28 +1,34 @@
+import { SharedService } from './../services/sharedService';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './component/homepage/homepage.component';
-import { DettagliComponent } from './component/dettagli/dettagli.component';
-import { HeroesComponent } from './component/heroes/heroes.component';
-import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
-import { HeroShoppingComponent } from './component/hero-shopping/hero-shopping.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './component/home/home.component';
+import { MenuComponent } from './component/menu/menu.component';
+import { ShoppingCartComponent } from './component/shopping-cart/shopping-cart.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent,
-    DettagliComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    HeroShoppingComponent
+    HomeComponent,
+    MenuComponent,
+    ShoppingCartComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    HttpClientModule,
+    MatTableModule  
+   
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

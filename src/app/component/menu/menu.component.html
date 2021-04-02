@@ -1,0 +1,23 @@
+<body>
+<div class="row" >
+    <div class="col" *ngFor="let card of pizzaList">
+  <mat-card class="example-card" >
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{card.pizza_type}}</mat-card-title>
+        
+      </mat-card-header>
+    
+      <img mat-card-image [src]='card.images' alt="image">
+    
+     <mat-card-actions>
+        <button mat-button (click)="addToCart(card)">Add to cart</button>
+       
+        <button mat-button>Price</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  </div>
+ 
+  
+</body>

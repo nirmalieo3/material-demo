@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/nirmalieo3/FoodDeliveryLab/master/img/photo3.jpg");
+  
+    width:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer{
+ 
+ 
+    width: 100%;
+}

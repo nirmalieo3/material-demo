@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/nirmalieo3/FoodDeliveryLab/master/img/photo3.jpg");
+    width:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+h1 {
+    text-align: center;
+    color:white;
+    margin: 50px auto;
+    font-size: 35px;
+}
+
+img{
+    width:100px;
+}
+table{
+    margin:10px auto;
+    width: 95%;
+    background-color: rgb(126, 189, 153);
+    text-align: center;
+}
+th{
+   padding: 20px;
+   text-align: center;
+  
+}
+span{
+    font-size: 18px;
+}
+th span{
+    font-size: 22px;
+}
+.total td{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}

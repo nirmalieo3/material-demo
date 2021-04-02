@@ -1,0 +1,52 @@
+<body>
+
+
+   <h1>Shopping Cart</h1>
+  <table class="responsive-table table-striped table-bordered table-hover">  
+    <thead>  
+        <tr>  
+            <th >  
+                <span>id</span>  
+            </th>  
+            <th >  
+                <span>pizza</span>  
+            </th>  
+            <th >  
+                <span>price</span>  
+            </th>  
+            <th>  
+                <span>ingradient</span>  
+            </th>  
+            <th>  
+                <span>image</span>  
+            </th> 
+            <th >  
+                <span>quantity</span>  
+            </th> 
+            <th >  
+                <span>Remove</span>  
+            </th> 
+              
+        </tr>  
+    </thead>  
+    <tbody>  
+        <tr *ngFor="let item of cartItems; let i=index">  
+           <td><span>{{item.id}}</span></td>  
+            <td><span>{{item.pizza_type}}</span></td>  
+            <td><span>{{item.price}}€</span></td>  
+            <td><span>{{item.ingradients}}</span></td>  
+            <td><span><img [src]="item.images"></span></td>  
+            <td><span>{{item.quantity}}</span></td>  
+           <td style="cursor: pointer;" (click)="deleteItem(item, i)">X</td>
+        </tr>
+        <tr class="total">
+            <td></td>  
+            <td></td>  
+            <td>Total: {{totalPrice}}€</td>  
+            <td></td>  
+            <td></td>  
+        </tr> 
+    </tbody>  
+</table> 
+      
+  </body>

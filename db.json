@@ -1,0 +1,57 @@
+{
+    "Pizza": [
+        {
+            "id": 1,
+            "pizza_type": "Pizza_Margarita",
+            "price": "10",
+             "ingradients": "mosarella",
+             "images": "https://i.pinimg.com/originals/9f/c3/e8/9fc3e8a71a5cdebecf5b2dc35f0739e2.jpg"
+        },
+        {
+            "id": 2,
+            "pizza_type": "Pizza_Peparoni",
+            "price": "12",
+             "ingradients": "peparoni",
+             "images": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/02/c1.png"
+
+        },
+        {
+            "id": 3,
+            "pizza_type": "Pizza_al_padellino",
+            "price": "10",
+             "ingradients": "prosciutto",
+             "images":"https://blog.giallozafferano.it/adryincucina/wp-content/uploads/2015/05/Collage-pizza-e1584710778650.jpg"
+
+        },
+        {
+            "id": 4,
+            "pizza_type": "Pizza_Siciliana",
+            "price": "15",
+             "ingradients": "anchovies",
+             "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8XnJH5FU4PB07MgoWN9FmAl3XLRU4qhk0w&usqp=CAU"
+
+        },
+        {
+            "id": 5,
+            "pizza_type": "Pizza_Fritta",
+            "price": "12",
+             "ingradients": "ricotta",
+             "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWgsitPP7w-CalNngLHFVFVaQuFUjQCgHSw&usqp=CAU"
+
+        },
+        {
+            "id": 6,
+            "pizza_type": "Pizza_Fritta",
+            "price": "12",
+             "ingradients": "ricotta",
+             "images": "https://i.pinimg.com/originals/9f/c3/e8/9fc3e8a71a5cdebecf5b2dc35f0739e2.jpg"
+
+        }
+    ]
+   
+}
+
+
+   
+    
+

@@ -1,0 +1,14 @@
+<body>
+
+  <h1> Welcome to Italian Pizza Hut</h1>
+
+<div class="row" >
+  <div class="col" *ngFor="let card of cardList">
+<mat-card class="example-card" >
+   
+    <img mat-card-image [src]='card.images' alt="image">
+   
+  </mat-card>
+</div>
+</div>
+</body>
