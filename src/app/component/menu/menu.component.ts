@@ -22,7 +22,7 @@ export class MenuComponent implements OnInit {
     this.sharedService.getPizza().subscribe(data=>{
      
      console.log(data, 'Dati');
-     this.pizzaList = data;
+     this.pizzaList = data['Pizza'];
     })
   };
 
